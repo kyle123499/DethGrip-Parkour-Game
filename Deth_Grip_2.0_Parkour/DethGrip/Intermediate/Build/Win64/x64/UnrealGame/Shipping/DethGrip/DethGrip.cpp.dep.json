@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\b00645723\\documents\\github\\dethgrip-parkour-game\\deth_grip_2.0_parkour\\dethgrip\\intermediate\\source\\dethgrip.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\b00645723\\documents\\github\\dethgrip-parkour-game\\deth_grip_2.0_parkour\\dethgrip\\intermediate\\build\\win64\\x64\\dethgrip\\shipping\\core\\sharedpch.core.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\b00645723\\documents\\github\\dethgrip-parkour-game\\deth_grip_2.0_parkour\\dethgrip\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\dethgrip\\definitions.dethgrip.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
