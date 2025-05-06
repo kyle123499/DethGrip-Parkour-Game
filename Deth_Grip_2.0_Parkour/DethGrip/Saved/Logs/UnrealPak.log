@@ -1,9 +1,9 @@
-﻿Log file open, 04/16/25 13:06:23
+﻿Log file open, 05/06/25 10:10:08
 LogWindows: Enabling Tpause support
 LogTrace: Initializing trace...
 LogTrace: Finished trace initialization.
 LogInit: Session CrashGUID >====================================================
-         Session CrashGUID >   UECC-Windows-B8CCC81D41674A80B57CCEA32C6D1B33
+         Session CrashGUID >   UECC-Windows-6986141D4AF06F03AB0CC89D8AE3B58F
          Session CrashGUID >====================================================
 LogConfig: No local boot hotfix file found at: [../../../../../../Users/B00645723/Documents/GitHub/DethGrip-Parkour-Game/Deth_Grip_2.0_Parkour/DethGrip/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
 LogPluginManager: Mounting Engine plugin PlatformCrypto
@@ -15,7 +15,7 @@ LogInit: DeviceId=
 LogInit: Engine Version: 5.5.4-40574608+++UE5+Release-5.5
 LogInit: Compatible Engine Version: 5.5.0-37670630+++UE5+Release-5.5
 LogInit: Net CL: 37670630
-LogInit: OS: Windows 11 (23H2) [10.0.22631.3737] (), CPU: 13th Gen Intel(R) Core(TM) i7-13700F, GPU: NVIDIA GeForce RTX 4070
+LogInit: OS: Windows 11 (23H2) [10.0.22631.5189] (), CPU: 13th Gen Intel(R) Core(TM) i7-13700F, GPU: NVIDIA GeForce RTX 4070
 LogInit: Compiled (64-bit): Mar  7 2025 14:59:45
 LogInit: Architecture: x64
 LogInit: Compiled with Visual C++: 19.38.33130.00
@@ -74,153 +74,153 @@ LogConfig: CVar [[ds.CADTranslator.Stitching.RemoveThinFaces:0]] deferred - dumm
 LogConfig: Applying CVar settings from Section [Startup_Windows] File [../../../Engine/Config/ConsoleVariables.ini]
 LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
 LogConfig: Set CVar [[memory.MemoryPressureCriticalThresholdMB:512]]
-[2025.04.16-12.06.23:694][  0]LogInit: Computer: BT-BA03001-D07
-[2025.04.16-12.06.23:694][  0]LogInit: User: B00645723
-[2025.04.16-12.06.23:694][  0]LogInit: CPU Page size=4096, Cores=16
-[2025.04.16-12.06.23:694][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2025.04.16-12.06.23:837][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
-[2025.04.16-12.06.23:837][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx) Virtual=27.6GB
-[2025.04.16-12.06.23:837][  0]LogMemory: Platform Memory Stats for WindowsEditor
-[2025.04.16-12.06.23:837][  0]LogMemory: Process Physical Memory: 67.16 MB used, 67.73 MB peak
-[2025.04.16-12.06.23:837][  0]LogMemory: Process Virtual Memory: 148.16 MB used, 148.16 MB peak
-[2025.04.16-12.06.23:837][  0]LogMemory: Physical Memory: 7914.52 MB used,  8187.92 MB free, 16102.44 MB total
-[2025.04.16-12.06.23:837][  0]LogMemory: Virtual Memory: 22559.09 MB used,  5713.38 MB free, 28272.46 MB total
-[2025.04.16-12.06.23:842][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
-[2025.04.16-12.06.23:842][  0]LogUObjectArray: 438 objects as part of root set at end of initial load.
-[2025.04.16-12.06.23:842][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2025.04.16-12.06.23:842][  0]LogInit: Using OS detected language ().
-[2025.04.16-12.06.23:842][  0]LogInit: Using OS detected locale ().
-[2025.04.16-12.06.23:842][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
-[2025.04.16-12.06.23:842][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
-[2025.04.16-12.06.23:842][  0]LogInit: Using OS detected language ().
-[2025.04.16-12.06.23:842][  0]LogInit: Using OS detected locale ().
-[2025.04.16-12.06.23:842][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
-[2025.04.16-12.06.23:842][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
-[2025.04.16-12.06.23:842][  0]LogPakFile: Display: ProjectDir: ../../../../../../Users/B00645723/Documents/GitHub/DethGrip-Parkour-Game/Deth_Grip_2.0_Parkour/DethGrip/
-[2025.04.16-12.06.23:842][  0]LogIoStore: Display: ==================== IoStore Utils ====================
-[2025.04.16-12.06.23:842][  0]LogIoStore: Display: Parsing crypto keys from a crypto key cache file 'C:\Users\B00645723\Documents\GitHub\DethGrip-Parkour-Game\Deth_Grip_2.0_Parkour\DethGrip\Saved\Cooked\Windows\DethGrip\Metadata\Crypto.json'
-[2025.04.16-12.06.23:844][  0]LogIoStore: Display: Container signing - DISABLED
-[2025.04.16-12.06.23:844][  0]LogIoStore: Display: Directory index - ENABLED
-[2025.04.16-12.06.23:844][  0]LogIoStore: Display: Using compression format 'Oodle'
-[2025.04.16-12.06.23:844][  0]LogIoStore: Display: Using memory mapping alignment '16384'
-[2025.04.16-12.06.23:844][  0]LogIoStore: Display: Using compression block size '65536'
-[2025.04.16-12.06.23:844][  0]LogIoStore: Display: Using compression block alignment '2048'
-[2025.04.16-12.06.23:844][  0]LogIoStore: Display: Using compression min bytes saved '1024'
-[2025.04.16-12.06.23:844][  0]LogIoStore: Display: Using compression min percent saved '5'
-[2025.04.16-12.06.23:844][  0]LogIoStore: Display: Using max partition size '0'
-[2025.04.16-12.06.23:844][  0]LogIoStore: Display: Not using DDC for compression
-[2025.04.16-12.06.23:844][  0]LogIoStore: Display: Using command list file: 'C:\Users\B00645723\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.5\IoStoreCommands.txt'
-[2025.04.16-12.06.23:877][  0]LogIoStore: Display: Selected Oodle level 4 (Normal) from command line for shaders
-[2025.04.16-12.06.23:877][  0]LogIoStore: Display: Fetched 802 oplog items from Manifest in 0.00 seconds
-[2025.04.16-12.06.23:879][  0]LogIoStore: Display: Parsed 802 oplog items 0.00 seconds, 1015 chunks
-[2025.04.16-12.06.23:882][  0]LogIoStore: Display: Using input asset registry: C:/Users/B00645723/Documents/GitHub/DethGrip-Parkour-Game/Deth_Grip_2.0_Parkour/DethGrip/Saved/Cooked/Windows/DethGrip/Metadata/DevelopmentAssetRegistry.bin
-[2025.04.16-12.06.23:886][  0]LogIoStore: Display: Loaded 231 chunk hashes from AssetRegistry in 0.01 seconds, 231 hashes updated in 0.00 seconds
-[2025.04.16-12.06.23:892][  0]LogIoStore: Display: Searching for cooked assets in folder 'C:\Users\B00645723\Documents\GitHub\DethGrip-Parkour-Game\Deth_Grip_2.0_Parkour\DethGrip\Saved\Cooked\Windows'
-[2025.04.16-12.06.23:904][  0]LogIoStore: Display: Found '1807' files
-[2025.04.16-12.06.23:909][  0]LogIoStore: Display: Creating container targets...
-[2025.04.16-12.06.23:912][  0]OodleDataCompression: Display: Oodle v2.9.12 format for pak/iostore with method=Kraken, level=4=Normal
-[2025.04.16-12.06.23:937][  0]LogIoStore: Display: Parsing packages...
-[2025.04.16-12.06.23:937][  0]LogIoStore: Display: Reading package assets...
-[2025.04.16-12.06.24:181][  0]LogIoStore: Display: Packages read 784 files in 0.24 seconds, 1,648,778 total bytes, 6,754,690 bytes per second
-[2025.04.16-12.06.24:184][  0]LogIoStore: Display: Processing shader libraries, compressing with Oodle Mermaid, level 4 (Normal)
-[2025.04.16-12.06.24:187][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 211 groups (65 of them didn't need new indices), average uncompressed size 120110 bytes, min 490 bytes, max 979442 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
-[2025.04.16-12.06.24:207][  0]LogIoStore: Display: DethGrip-PCD3D_SM5(PCD3D_SM5): Recompressed 1962 shaders as 211 groups. Library size changed from 6922 KB (3.58 : 1 ratio) to 2271 KB (10.90 : 1 ratio), 32.81% of previous.
-[2025.04.16-12.06.24:215][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 233 groups (57 of them didn't need new indices), average uncompressed size 158941 bytes, min 2342 bytes, max 1043126 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
-[2025.04.16-12.06.24:281][  0]LogIoStore: Display: DethGrip-PCD3D_SM6(PCD3D_SM6): Recompressed 2764 shaders as 233 groups. Library size changed from 27287 KB (1.33 : 1 ratio) to 15820 KB (2.29 : 1 ratio), 57.98% of previous.
-[2025.04.16-12.06.24:306][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 363 groups (136 of them didn't need new indices), average uncompressed size 156607 bytes, min 249 bytes, max 1042473 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
-[2025.04.16-12.06.24:341][  0]LogIoStore: Display: Global-PCD3D_SM5(PCD3D_SM5): Recompressed 3922 shaders as 363 groups. Library size changed from 12731 KB (4.36 : 1 ratio) to 5633 KB (9.85 : 1 ratio), 44.25% of previous.
-[2025.04.16-12.06.24:390][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 478 groups (153 of them didn't need new indices), average uncompressed size 204026 bytes, min 1249 bytes, max 1023661 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
-[2025.04.16-12.06.24:618][  0]LogIoStore: Display: Global-PCD3D_SM6(PCD3D_SM6): Recompressed 6452 shaders as 478 groups. Library size changed from 72648 KB (1.31 : 1 ratio) to 41400 KB (2.30 : 1 ratio), 56.99% of previous.
-[2025.04.16-12.06.24:622][  0]LogIoStore: Display: Shaders processed in 0.44 seconds
-[2025.04.16-12.06.24:622][  0]LogIoStore: Display: Initialized WriteRequestManager with MaxConcurrentSourceReads=12 (24 cores), MaxSourceBufferMemory=3072MiB
-[2025.04.16-12.06.24:623][  0]LogIoStore: Display: Processing redirects...
-[2025.04.16-12.06.24:623][  0]LogIoStore: Display: Creating disk layout...
-[2025.04.16-12.06.24:624][  0]LogIoStore: Display: Ordered 784 packages using fallback bundle order
-[2025.04.16-12.06.24:629][  0]LogIoStore: Display: Serializing container(s)...
-[2025.04.16-12.06.26:109][  0]LogIoStore: Display: Writing and compressing took 0.64 seconds, writes to disk took 0.29 seconds for 332,830,208 bytes @ 1,145,660,972 bytes per second.
-[2025.04.16-12.06.26:109][  0]LogIoStore: Display: global: Found perfect hashmap for 1 items.
-[2025.04.16-12.06.26:109][  0]LogIoStore: Display: DethGrip-Windows: Found perfect hashmap for 2302 items.
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Finalize took 0.0 seconds for 2 writers to write 323,710 bytes, 68,311,984 bytes per second
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Writing tocs... [Physical: 920 MiB, Virtual: 3599 MiB]
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: 231 / 2,303 hashes were loaded from the hash database, by type:
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display:     BulkData                   231
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: 1,015 / 2,303 chunks attempted to compress, by type:
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display:     ExportBundleData           784 / 784
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display:     BulkData                   231 / 231
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display:     ScriptObjects              0 / 1
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display:     ContainerHeader            0 / 1
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display:     ShaderCodeLibrary          0 / 4
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display:     ShaderCode                 0 / 1,282
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Source bytes read:
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display:     Zen:                                  0
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display:     Loose File:                 892,505,672
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display:         ExportBundleData        367,202,930 bytes over 1,568 reads
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display:         BulkData                525,302,742 bytes over 231 reads
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display:     Memory:                     134,598,358
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display:         ShaderCodeLibrary         1,226,264 bytes over 8 reads
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display:         ShaderCode              133,372,094 bytes over 2,564 reads
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Calculating stats...
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: 
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Container Summary
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: ==================
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: 
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Container                                               Flags      Chunk(s) #       TOC (KiB)       Raw Size (MiB)           Size (MiB)
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: global                                              -/-/-/-/-               1            0.62                 2.31                 2.31 -
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: DethGrip-Windows                                    C/-/-/I/-            2302          315.50               742.95               315.10 (57.59% Oodle)
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Total                                                                    2303          316.12               745.26               317.41
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: 
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) / (O)nDemand **
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: 
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Compression block padding:     1.62 MiB
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: 
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Container Directory Index
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: ==========================
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: 
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Container                                          Size (KiB)
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: global                                                   0.00
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: DethGrip-Windows                                        47.18
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: 
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Container Patch Report
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: ========================
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: 
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Container                                             Total #       Modified #          Added #   Modified (MiB)      Added (MiB)
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: global                                                      1                0                0             0.00             0.00
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: DethGrip-Windows                                         2302                0             2302             0.00           313.48
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: 
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: PackageStore
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: =============
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: 
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Container                                          Size (KiB)      Packages #     Localized #
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: DethGrip-Windows                                           25             784               0
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Total                                                      25             784               0
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: 
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: 
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Input:       784 Packages
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Input:      0.17 GB UExp
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Input:      0.00 GB UAsset
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Input:      0.49 GB UBulk
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Input:     45.93 MB for 841 Global shaders
-[2025.04.16-12.06.26:114][  0]LogIoStore: Display: Input:      1.96 MB for 186 Shared shaders
-[2025.04.16-12.06.26:115][  0]LogIoStore: Display: Input:      0.00 MB for 0 Unique shaders
-[2025.04.16-12.06.26:115][  0]LogIoStore: Display: Input:     15.70 MB for 255 Inline shaders
-[2025.04.16-12.06.26:115][  0]LogIoStore: Display: 
-[2025.04.16-12.06.26:115][  0]LogIoStore: Display: Output:     9638 Name map entries
-[2025.04.16-12.06.26:115][  0]LogIoStore: Display: Output:      991 Imported package entries
-[2025.04.16-12.06.26:115][  0]LogIoStore: Display: Output:      461 Packages without imports
-[2025.04.16-12.06.26:115][  0]LogIoStore: Display: Output:        0 Public runtime script objects
-[2025.04.16-12.06.26:115][  0]LogIoStore: Display: Output:     0.00 GB HeaderData
-[2025.04.16-12.06.26:115][  0]LogIoStore: Display: Output:     2.31 MB InitialLoadData
-[2025.04.16-12.06.26:115][  0]LogIoStore: Display: 
-[2025.04.16-12.06.26:117][  0]LogPakFile: Display: UnrealPak executed in 2.275282 seconds
-[2025.04.16-12.06.26:118][  0]LogCore: Engine exit requested (reason: UnrealPak Exiting)
-[2025.04.16-12.06.26:118][  0]LogExit: Preparing to exit.
-[2025.04.16-12.06.26:118][  0]LogExit: Object subsystem successfully closed.
-[2025.04.16-12.06.26:118][  0]LogPakFile: Destroying PakPlatformFile
-[2025.04.16-12.06.26:120][  0]LogExit: Exiting.
-[2025.04.16-12.06.26:140][  0]Log file closed, 04/16/25 13:06:26
+[2025.05.06-09.10.08:181][  0]LogInit: Computer: BT-BA03001-D07
+[2025.05.06-09.10.08:181][  0]LogInit: User: B00645723
+[2025.05.06-09.10.08:181][  0]LogInit: CPU Page size=4096, Cores=16
+[2025.05.06-09.10.08:181][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2025.05.06-09.10.08:374][  0]LogMemory: Process is running as part of a Windows Job with separate resource limits
+[2025.05.06-09.10.08:374][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx) Virtual=27.4GB
+[2025.05.06-09.10.08:374][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2025.05.06-09.10.08:374][  0]LogMemory: Process Physical Memory: 67.66 MB used, 68.23 MB peak
+[2025.05.06-09.10.08:374][  0]LogMemory: Process Virtual Memory: 147.25 MB used, 147.25 MB peak
+[2025.05.06-09.10.08:374][  0]LogMemory: Physical Memory: 6987.04 MB used,  9115.41 MB free, 16102.44 MB total
+[2025.05.06-09.10.08:374][  0]LogMemory: Virtual Memory: 22423.93 MB used,  5641.45 MB free, 28065.38 MB total
+[2025.05.06-09.10.08:377][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2025.05.06-09.10.08:378][  0]LogUObjectArray: 438 objects as part of root set at end of initial load.
+[2025.05.06-09.10.08:378][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.05.06-09.10.08:378][  0]LogInit: Using OS detected language ().
+[2025.05.06-09.10.08:378][  0]LogInit: Using OS detected locale ().
+[2025.05.06-09.10.08:378][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
+[2025.05.06-09.10.08:378][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
+[2025.05.06-09.10.08:378][  0]LogInit: Using OS detected language ().
+[2025.05.06-09.10.08:378][  0]LogInit: Using OS detected locale ().
+[2025.05.06-09.10.08:378][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the language.
+[2025.05.06-09.10.08:378][  0]LogTextLocalizationManager: No localization for '' exists, so 'en' will be used for the locale.
+[2025.05.06-09.10.08:378][  0]LogPakFile: Display: ProjectDir: ../../../../../../Users/B00645723/Documents/GitHub/DethGrip-Parkour-Game/Deth_Grip_2.0_Parkour/DethGrip/
+[2025.05.06-09.10.08:378][  0]LogIoStore: Display: ==================== IoStore Utils ====================
+[2025.05.06-09.10.08:378][  0]LogIoStore: Display: Parsing crypto keys from a crypto key cache file 'C:\Users\B00645723\Documents\GitHub\DethGrip-Parkour-Game\Deth_Grip_2.0_Parkour\DethGrip\Saved\Cooked\Windows\DethGrip\Metadata\Crypto.json'
+[2025.05.06-09.10.08:380][  0]LogIoStore: Display: Container signing - DISABLED
+[2025.05.06-09.10.08:380][  0]LogIoStore: Display: Directory index - ENABLED
+[2025.05.06-09.10.08:380][  0]LogIoStore: Display: Using compression format 'Oodle'
+[2025.05.06-09.10.08:380][  0]LogIoStore: Display: Using memory mapping alignment '16384'
+[2025.05.06-09.10.08:380][  0]LogIoStore: Display: Using compression block size '65536'
+[2025.05.06-09.10.08:380][  0]LogIoStore: Display: Using compression block alignment '2048'
+[2025.05.06-09.10.08:380][  0]LogIoStore: Display: Using compression min bytes saved '1024'
+[2025.05.06-09.10.08:380][  0]LogIoStore: Display: Using compression min percent saved '5'
+[2025.05.06-09.10.08:380][  0]LogIoStore: Display: Using max partition size '0'
+[2025.05.06-09.10.08:380][  0]LogIoStore: Display: Not using DDC for compression
+[2025.05.06-09.10.08:380][  0]LogIoStore: Display: Using command list file: 'C:\Users\B00645723\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.5\IoStoreCommands.txt'
+[2025.05.06-09.10.08:402][  0]LogIoStore: Display: Selected Oodle level 4 (Normal) from command line for shaders
+[2025.05.06-09.10.08:402][  0]LogIoStore: Display: Fetched 802 oplog items from Manifest in 0.00 seconds
+[2025.05.06-09.10.08:404][  0]LogIoStore: Display: Parsed 802 oplog items 0.00 seconds, 1014 chunks
+[2025.05.06-09.10.08:409][  0]LogIoStore: Display: Using input asset registry: C:/Users/B00645723/Documents/GitHub/DethGrip-Parkour-Game/Deth_Grip_2.0_Parkour/DethGrip/Saved/Cooked/Windows/DethGrip/Metadata/DevelopmentAssetRegistry.bin
+[2025.05.06-09.10.08:412][  0]LogIoStore: Display: Loaded 230 chunk hashes from AssetRegistry in 0.01 seconds, 230 hashes updated in 0.00 seconds
+[2025.05.06-09.10.08:413][  0]LogIoStore: Display: Searching for cooked assets in folder 'C:\Users\B00645723\Documents\GitHub\DethGrip-Parkour-Game\Deth_Grip_2.0_Parkour\DethGrip\Saved\Cooked\Windows'
+[2025.05.06-09.10.08:424][  0]LogIoStore: Display: Found '1806' files
+[2025.05.06-09.10.08:431][  0]LogIoStore: Display: Creating container targets...
+[2025.05.06-09.10.08:432][  0]OodleDataCompression: Display: Oodle v2.9.12 format for pak/iostore with method=Kraken, level=4=Normal
+[2025.05.06-09.10.08:456][  0]LogIoStore: Display: Parsing packages...
+[2025.05.06-09.10.08:456][  0]LogIoStore: Display: Reading package assets...
+[2025.05.06-09.10.08:465][  0]LogIoStore: Display: Packages read 784 files in 0.01 seconds, 1,543,707 total bytes, 183,096,748 bytes per second
+[2025.05.06-09.10.08:467][  0]LogIoStore: Display: Processing shader libraries, compressing with Oodle Mermaid, level 4 (Normal)
+[2025.05.06-09.10.08:470][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 211 groups (65 of them didn't need new indices), average uncompressed size 120332 bytes, min 490 bytes, max 979442 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.05.06-09.10.08:488][  0]LogIoStore: Display: DethGrip-PCD3D_SM5(PCD3D_SM5): Recompressed 1968 shaders as 211 groups. Library size changed from 6939 KB (3.57 : 1 ratio) to 2274 KB (10.90 : 1 ratio), 32.78% of previous.
+[2025.05.06-09.10.08:497][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 233 groups (57 of them didn't need new indices), average uncompressed size 159206 bytes, min 2342 bytes, max 1043126 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.05.06-09.10.08:562][  0]LogIoStore: Display: DethGrip-PCD3D_SM6(PCD3D_SM6): Recompressed 2770 shaders as 233 groups. Library size changed from 27333 KB (1.33 : 1 ratio) to 15839 KB (2.29 : 1 ratio), 57.95% of previous.
+[2025.05.06-09.10.08:570][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 363 groups (136 of them didn't need new indices), average uncompressed size 156607 bytes, min 249 bytes, max 1042473 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.05.06-09.10.08:608][  0]LogIoStore: Display: Global-PCD3D_SM5(PCD3D_SM5): Recompressed 3922 shaders as 363 groups. Library size changed from 12731 KB (4.36 : 1 ratio) to 5633 KB (9.85 : 1 ratio), 44.25% of previous.
+[2025.05.06-09.10.08:643][  0]LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 478 groups (153 of them didn't need new indices), average uncompressed size 204026 bytes, min 1249 bytes, max 1023661 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+[2025.05.06-09.10.08:859][  0]LogIoStore: Display: Global-PCD3D_SM6(PCD3D_SM6): Recompressed 6452 shaders as 478 groups. Library size changed from 72648 KB (1.31 : 1 ratio) to 41400 KB (2.30 : 1 ratio), 56.99% of previous.
+[2025.05.06-09.10.08:862][  0]LogIoStore: Display: Shaders processed in 0.40 seconds
+[2025.05.06-09.10.08:863][  0]LogIoStore: Display: Initialized WriteRequestManager with MaxConcurrentSourceReads=12 (24 cores), MaxSourceBufferMemory=3072MiB
+[2025.05.06-09.10.08:864][  0]LogIoStore: Display: Processing redirects...
+[2025.05.06-09.10.08:864][  0]LogIoStore: Display: Creating disk layout...
+[2025.05.06-09.10.08:864][  0]LogIoStore: Display: Ordered 784 packages using fallback bundle order
+[2025.05.06-09.10.08:870][  0]LogIoStore: Display: Serializing container(s)...
+[2025.05.06-09.10.09:303][  0]LogIoStore: Display: Writing and compressing took 0.36 seconds, writes to disk took 0.21 seconds for 319,989,248 bytes @ 1,488,873,313 bytes per second.
+[2025.05.06-09.10.09:303][  0]LogIoStore: Display: global: Found perfect hashmap for 1 items.
+[2025.05.06-09.10.09:303][  0]LogIoStore: Display: DethGrip-Windows: Found perfect hashmap for 2301 items.
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display: Finalize took 0.0 seconds for 2 writers to write 274,704 bytes, 48,221,601 bytes per second
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display: Writing tocs... [Physical: 941 MiB, Virtual: 3652 MiB]
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display: 230 / 2,302 hashes were loaded from the hash database, by type:
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display:     BulkData                   230
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display: 1,014 / 2,302 chunks attempted to compress, by type:
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display:     ExportBundleData           784 / 784
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display:     BulkData                   230 / 230
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display:     ScriptObjects              0 / 1
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display:     ContainerHeader            0 / 1
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display:     ShaderCodeLibrary          0 / 4
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display:     ShaderCode                 0 / 1,282
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display: Source bytes read:
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display:     Zen:                                  0
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display:     Loose File:                 622,947,018
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display:         ExportBundleData        362,245,876 bytes over 1,568 reads
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display:         BulkData                260,701,142 bytes over 230 reads
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display:     Memory:                     134,644,002
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display:         ShaderCodeLibrary         1,227,160 bytes over 8 reads
+[2025.05.06-09.10.09:308][  0]LogIoStore: Display:         ShaderCode              133,416,842 bytes over 2,564 reads
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Calculating stats...
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: 
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Container Summary
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: ==================
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: 
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Container                                               Flags      Chunk(s) #       TOC (KiB)       Raw Size (MiB)           Size (MiB)
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: global                                              -/-/-/-/-               1            0.62                 2.31                 2.31 -
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: DethGrip-Windows                                    C/-/-/I/-            2301          267.64               488.17               302.86 (37.96% Oodle)
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Total                                                                    2302          268.27               490.47               305.17
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: 
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) / (O)nDemand **
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: 
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Compression block padding:     1.60 MiB
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: 
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Container Directory Index
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: ==========================
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: 
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Container                                          Size (KiB)
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: global                                                   0.00
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: DethGrip-Windows                                        47.14
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: 
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Container Patch Report
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: ========================
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: 
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Container                                             Total #       Modified #          Added #   Modified (MiB)      Added (MiB)
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: global                                                      1                0                0             0.00             0.00
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: DethGrip-Windows                                         2301                0             2301             0.00           301.26
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: 
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: PackageStore
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: =============
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: 
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Container                                          Size (KiB)      Packages #     Localized #
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: DethGrip-Windows                                           25             784               0
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Total                                                      25             784               0
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: 
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: 
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Input:       784 Packages
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Input:      0.17 GB UExp
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Input:      0.00 GB UAsset
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Input:      0.24 GB UBulk
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Input:     45.93 MB for 841 Global shaders
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Input:      1.96 MB for 186 Shared shaders
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Input:      0.00 MB for 0 Unique shaders
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Input:     15.73 MB for 255 Inline shaders
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: 
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Output:     9632 Name map entries
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Output:      991 Imported package entries
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Output:      461 Packages without imports
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Output:        0 Public runtime script objects
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Output:     0.00 GB HeaderData
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: Output:     2.31 MB InitialLoadData
+[2025.05.06-09.10.09:309][  0]LogIoStore: Display: 
+[2025.05.06-09.10.09:312][  0]LogPakFile: Display: UnrealPak executed in 0.933252 seconds
+[2025.05.06-09.10.09:320][  0]LogCore: Engine exit requested (reason: UnrealPak Exiting)
+[2025.05.06-09.10.09:320][  0]LogExit: Preparing to exit.
+[2025.05.06-09.10.09:320][  0]LogExit: Object subsystem successfully closed.
+[2025.05.06-09.10.09:320][  0]LogPakFile: Destroying PakPlatformFile
+[2025.05.06-09.10.09:321][  0]LogExit: Exiting.
+[2025.05.06-09.10.09:332][  0]Log file closed, 05/06/25 10:10:09
